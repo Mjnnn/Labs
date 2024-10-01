@@ -1,4 +1,4 @@
-name: lab_1
+name: lab_3
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -52,12 +52,18 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/images/dice1.png
+    - assets/images/dice2.png
+    - assets/images/dice3.png
+    - assets/images/dice4.png
+    - assets/images/dice5.png
+    - assets/images/dice6.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
 
   # To add assets to your application, add an assets section, like this:
   # assets:
